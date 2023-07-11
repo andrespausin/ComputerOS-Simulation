@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full website design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--Barra de tareas-->
+    <header>
+        <i id="logo" class='bx bx-menu header' ></i>
+
+        <ul class="navbar">
+            <li class="header" id="lenguaje"><a>ENG</a></li>
+            <li class="header" id="volume"><a><i class='bx bxs-volume-full'></i></a></li>
+            <li class="header" id="wifi"><a><i class='bx bx-wifi'></i></a></li>
+            <li class="header" id="date"></li>
+            <li class="header" id="time">11:00</li>
+        </ul>
+    </header>
+
+    <!--Desktop -->
+    <section class="home" id="home">
+
+        <div class="column">
+            <div class="desktop-img" id="trash">
+                <i class='bx bxs-trash' ><p><br>Basura</p></i>    
+            </div>
+    
+            <div class="desktop-img" id="config">
+                <i class='bx bxs-cog'><p><br>Configuración</p></i>
+            </div>
+    
+            <div class="desktop-img" id="taskManager">
+                <i class='bx bxs-memory-card'><p><br>Administrador de<br>Almacenamiento</p></i>
+            </div>
+    
+            <div class="desktop-img" id="chrome">
+               <i class='bx bxl-chrome' ><p><br>Google Chrome</p></i>  
+            </div>
+    
+            <div class="desktop-img" id="instagram">
+                <i class='bx bxl-instagram-alt' ><p><br>Instagram</p></i>    
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="desktop-img" id="facebook">
+                <i class='bx bxl-facebook-square'><p><br>Facebook</p></i>  
+            </div>
+
+            <div class="desktop-img" id="spotify">
+                <i class='bx bxl-spotify'><p><br>Spotify</p></i>   
+            </div>
+
+            <div class="desktop-img" id="visual-studio">
+                <i class='bx bxl-visual-studio'><p><br>Visual Studio <br>Code</p></i>  
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Dialog Menu -->
+    <dialog class="menu" id="menuBtn">
+        <ul>
+            
+            <li class="row" id="closeMenu">
+                <div class="imagen">
+                    <i class='bx bx-window-close' ></i>
+                </div>
+                <div class="nombre">
+                    Cerrar Menú
+                </div>
+            </li>
+
+            <li class="row" id="visual-studio-menu">
+                <div class="imagen">
+                    <i class='bx bxl-visual-studio'></i>
+                </div>
+                <div class="nombre">
+                    Visual Studio Code
+                </div>
+            </li>
+
+            <li class="row" id="chrome-menu">
+                <div class="imagen">
+                    <i class='bx bxl-chrome' ></i>
+                </div>
+                <div class="nombre">
+                    Google Chrome
+                </div>
+            </li>
+
+            <li class="row" id="spotify-menu">
+                <div class="imagen">
+                    <i class='bx bxl-spotify'></i>
+                </div>
+                <div class="nombre">
+                    Spotify
+                </div>
+            </li>
+
+            <li class="row" id="instagram-menu">
+                <div class="imagen">
+                    <i class='bx bxl-instagram-alt'  ></i>
+                </div>
+                <div class="nombre">
+                    Instagram
+                </div>
+            </li>
+
+            <li class="row" id="config-menu">
+                <div class="imagen">
+                    <i class='bx bxs-cog' ></i>
+                </div>
+                <div class="nombre">
+                    Configuración
+                </div>
+            </li>
+
+            <li class="row" id="taskManager-menu">
+                <div class="imagen">
+                    <i class='bx bxs-memory-card'></i>
+                </div>
+                <div class="nombre">
+                    Administrador de Almacenamiento
+                </div>
+            </li>
+
+            <li class="row" id="turnOff">
+                <div class="imagen">
+                    <i class='bx bx-power-off'></i>
+                </div>
+                <div class="nombre">
+                    Inicio/Apagado
+                </div>
+            </li>
+
+
+        </ul>
+    </dialog>  
+    
+    <!-- Dialog de Configuración -->
+    <dialog class="configuracion" id="configuracion">
+        <h2>Configuración</h2>
+        <section class="confi">
+            <div class="column">
+                <div class="desktop-img" id="change-font">
+                    <i class='bx bx-font' ><p><br>Cambiar fuente</p></i>   
+                </div>
+        
+                <div class="desktop-img" id="change-color">
+                    <i class='bx bx-color' ><p><br>Cambiar color</p></i>
+                </div>
+        
+                <div class="desktop-img" id="change-volume">
+                    <i class='bx bxs-volume-full'><p><br>Volumen</p></i>
+                </div>
+        
+            </div>
+    
+            <div class="column">
+                <div class="desktop-img" id="change-wifi">
+                    <i class='bx bx-wifi'><p><br>Conectado<br>MERCUSYS_ABD30</p></i> 
+                </div>
+    
+                <div class="desktop-img" id="task-manager">
+                    <i class='bx bxs-memory-card'><p><br>Administrador de Almacenamiento</p></i>   
+                </div>
+    
+                <div class="desktop-img" id="antivirus">
+                    <i class='bx bxs-virus-block' ><p><br>Antivirus</p></i> 
+                </div>
+            </div>
+
+            
+            <div class="column">
+                <div class="desktop-img" id="exit-config">
+                    <i class='bx bx-exit' ><p><br>Salir de Configuración</p></i>  
+                </div>
+    
+                <div class="desktop-img" id="user-account">
+                    <i class='bx bxs-user-account' ><p><br>Usuario<br>César Pausín</p></i>
+                </div>
+    
+                <div class="desktop-img" id="change-date">
+                    <i class='bx bx-calendar'><p><br>Cambiar fecha y hora</p></i>
+                </div>
+            </div>
+            
+        </section>
+    
+    </dialog>
+    
+    <!--Ventana de administración de almacenamiento-->
+    <dialog class="ventana" id="admin-almac">
+        <h2>Administrador de Almacenamiento</h2>
+        <section class="almacenamiento">
+            <div class="column">
+                <div class="desktop-img" id="change-font">
+                    <h2 class="memory">Memoria ROM: 500 GB</h2> 
+                    <h2 class="memory">Memoria RAM: 16 GB</h2>
+                </div>
+        
+                <div>
+                    <table id="tablaApps">
+                        <thead>
+                            <th>App</th>
+                            <th>RAM</th>
+                            <th>ROM</th>
+                        </thead>
+                        <tbody id="cuerpo">
+
+                        </tbody>
+                    </table>
+                </div>
+                <h2 class="memory">Memoria ROM</h2><br>
+                <div class="progreso" id="ROM">
+                    <div class="porcentaje" id="percentROM"></div>                    
+                </div>
+        
+            </div>
+                
+            <div class="column">
+                <div class="desktop-img" id="exit-almac">
+                    <i class='bx bx-exit' ><p><br>Salir</p></i>  
+                </div>
+
+                <h2 class="memory">Memoria RAM</h2>
+                <div class="progress" id="RAM">
+                    <div class="porcentajeRam" id="percentRAM"></div>                    
+                </div>
+            </div>
+            
+        </section>
+    </dialog>
+
+    <!-- Ventana de apagar, reiniciar o suspender -->
+    <dialog class="ventana encendido" id="turn-off">
+        <h2>Inicio/Apagado</h2>
+        <section class="encendido">
+                <div class="desktop-img" id="reiniciar">
+                    <i class='bx bx-reset' ><p><br>Reiniciar</p></i>  
+                </div>
+                
+                <div class="desktop-img" id="suspender">
+                    <i class='bx bx-moon' ><p><br>Suspender</p></i>  
+                </div>
+
+                <div class="desktop-img" id="apagar">
+                    <i class='bx bx-power-off'><p><br>Apagar</p></i>  
+                </div>       
+
+        </section>
+    </dialog>
+
+    <!-- Ventana emergente instagram -->
+    <dialog class="ventana" id="ig">
+        <h2>Instagram</h2>
+        <section>
+            <div class="ventana-img" id="exit-ig">
+                <i class='bx bx-exit'><p><br>Cerrar</p></i>  
+            </div>
+        </section>
+    </dialog>
+
+    <dialog class="ventana" id="facebook-modal">
+        <h2>Facebook</h2>
+        <section>
+            <div class="ventana-img" id="exit-facebook">
+                <i class='bx bx-exit'><p><br>Cerrar</p></i>  
+            </div>
+        </section>
+    </dialog>
+
+    <dialog class="ventana" id="spotify-modal">
+        <h2>Spotify</h2>
+        <section>
+            <div class="ventana-img" id="exit-spotify">
+                <i class='bx bx-exit'><p><br>Cerrar</p></i>  
+            </div>
+        </section>
+    </dialog>
+
+    <dialog class="ventana" id="chrome-modal">
+        <h2>Google Chrome</h2>
+        <section>
+            <div class="ventana-img" id="exit-chrome">
+                <i class='bx bx-exit'><p><br>Cerrar</p></i>  
+            </div>
+        </section>
+    </dialog>
+
+    <dialog class="ventana" id="vsc-modal">
+        <h2>Visual Studio Code</h2>
+        <section>
+            <div class="ventana-img" id="exit-vsc">
+                <i class='bx bx-exit'><p><br>Cerrar</p></i>  
+            </div>
+        </section>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+</html>
